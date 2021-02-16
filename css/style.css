@@ -40,6 +40,36 @@ padding-left:150px;
     padding-top: 100px;
     
   }
+  .email-content{
+      margin-top: 0px !important;
+  }
+  .live-content{
+      margin-top: 0px !important;
+  }
+  .Integrations{
+      margin-top: 0px !important;
+  }
+  footer .mt-5{
+      margin-right: 30px !important;
+  }
+}
+@media(max-width: 992px) {
+  .btm-img {
+    margin-left: 0px;
+    
+  }
+  .email img {
+    margin-left: 0px !important;
+
+  }
+  .top-img{
+      top: 0px !important;
+      right: 0px !important;
+      width: 150px !important;
+  }
+  footer{
+      text-align: center;
+  }
 }
 
 
@@ -134,7 +164,7 @@ padding-left:150px;
     width: 70%;
     height: 700px;
     border-radius: 6px;
-    left: 300px;
+    
     right: 0px;
 
     background: linear-gradient(
@@ -206,7 +236,6 @@ padding-left:150px;
     height: 100%;
     z-index: -999;
     border-radius: 6px;
-    left: 250px;
     right: 0px;
     background: linear-gradient(
 90deg
