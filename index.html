@@ -1,216 +1,367 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-     <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/icofont.min.css">
+
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
+
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
-    <div class="container-fluid">
-        <a class="navbar-brand"></a>
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-    
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-               <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">
-                        Features
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">
-                        Resorses
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Blog</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
-                </li>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top ">
+        <div class="container-fluid">
+            <a class="navbar-brand"></a>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item dropdown px-2">
+                        <div class="dropdown">
+                            <button class="dropbtn ">Features <span><img src="assets/images/simple-down.svg" alt=""
+                                        width="20px" height="20px"></span> </button>
+                            <div class="dropdown-content">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <a href="">
+                                            <div id="op-1" onmouseover="hoverAnimation(this)"
+                                                onmouseleave="backToNomral(this)" class="row opacity-none p-2">
+                                                <div class="col-sm-2">
+                                                    <img src="assets/images/icon-helpdesk-9aa15bfc0a75de41a2d5f3fb24a2f9f4.svg"
+                                                        alt="">
+                                                </div>
+                                                <div class="col-sm-10">
+                                                    <span><strong>Shared Inbox</strong>
+                                                        <p>Manage conversations at scale</p>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="">
+                                            <div id="op-2" onmouseover="hoverAnimation(this)"
+                                                onmouseleave="backToNomral(this)" class="row opacity-none p-2">
+
+                                                <div class="col-lg-2">
+                                                    <img src="assets/images/icon-docs-812bd578b50778d144ab20d02536a384.svg"
+                                                        alt="">
+                                                </div>
+                                                <div class="col-lg-10">
+                                                    <span><strong>Knowledge Base</strong>
+                                                        <p>Instant answers for customers</p>
+                                                    </span>
+
+                                                </div>
+
+
+                                            </div>
+                                        </a>
+                                        <div id="op-3" onmouseover="hoverAnimation(this)"
+                                            onmouseleave="backToNomral(this)" class="row opacity-none p-2">
+
+                                            <div class="col-lg-2">
+                                                <img src="assets/images/icon-messages.svg" alt="">
+                                            </div>
+                                            <div class="col-lg-10">
+                                                <span><strong>In-app Messaging</strong>
+                                                    <p>Engage people on your website</p>
+                                                </span>
+                                            </div>
+
+
+                                        </div>
+                                        </a>
+                                        <a href="">
+                                            <div id="op-4" onmouseover="hoverAnimation(this)"
+                                                onmouseleave="backToNomral(this)" class="row opacity-none p-2">
+
+                                                <div class="col-lg-2">
+                                                    <img src="assets/images/icon-customers.svg" alt="">
+                                                </div>
+                                                <div class="col-lg-10">
+                                                    <span><strong>Customer Management</strong>
+                                                        <p>Know your VIPs</p>
+                                                    </span>
+                                                </div>
+
+
+                                            </div>
+
+                                    </div>
+                                    </a>
+                                    <a href="">
+                                        <div class="col-lg-6">
+                                            <div id="op-5" onmouseover="hoverAnimation(this)"
+                                                onmouseleave="backToNomral(this)" class="row opacity-none p-2">
+
+                                                <div class="col-lg-2">
+                                                    <img src="assets/images/icon-reports-e243f682d21c9927e1917300dcfa0ede.svg"
+                                                        alt="">
+                                                </div>
+                                                <div class="col-lg-10">
+                                                    <span><strong>Reporting</strong>
+                                                        <p>Real-time data at your fingertips</p>
+                                                    </span>
+                                                </div>
+
+
+                                            </div>
+                                    </a>
+                                    <a href="">
+                                        <div id="op-6" onmouseover="hoverAnimation(this)"
+                                            onmouseleave="backToNomral(this)" class="row opacity-none p-2">
+
+                                            <div class="col-lg-2">
+                                                <img src="assets/images/icon-beacon-3095ecc290da1c1f4786b798a9e21d07.svg"
+                                                    alt="">
+                                            </div>
+                                            <div class="col-lg-10">
+                                                <span><strong>Live Chat</strong>
+                                                    <p>Make your website more useful</p>
+                                                </span>
+                                            </div>
+
+
+                                        </div>
+                                    </a>
+                                    <a href="">
+                                        <div id="op-7" onmouseover="hoverAnimation(this)"
+                                            onmouseleave="backToNomral(this)" class="row opacity-none p-2">
+
+                                            <div class="col-lg-2">
+                                                <img src="assets/images/icon-integrations-887cf459e148cac9a2dadf23915b98df.svg"
+                                                    alt="">
+                                            </div>
+                                            <div class="col-lg-10">
+                                                <span><strong>Integrations</strong>
+                                                    <p>Connect the tools you already use</p>
+                                                </span>
+                                            </div>
+
+
+                                        </div>
+                                    </a>
+                                    <a href="">
+                                        <div id="op-8" onmouseover="hoverAnimation(this)"
+                                            onmouseleave="backToNomral(this)" class="row opacity-none  p-2">
+
+
+                                            <div class="col-lg-12 border">
+                                                <span><strong>Company Plan</strong>
+                                                    <p>Designed to grow with teams of 25+</p>
+                                                </span>
+                                            </div>
+
+
+                                        </div>
+
+
+                                </div>
+                                </a>
+
+                            </div>
+
+
+
+                        </div>
+            </div>
+            </li>
+            <li class="nav-item dropdown px-2">
+                <div class="dropdown">
+                    <button class="dropbtn">Resources<span><img src="assets/images/simple-down.svg" alt="" width="20px"
+                                height="20px"></span></button>
+                    <!-- <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div> -->
+                </div>
+
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+            </li>
             </ul>
             <ul class="navbar-nav ml-auto ">
-               <li class="nav-item">
+                <li class="nav-item">
                     <a class="nav-link" href="#">login</a>
                 </li>
                 <button class="btn" type="submit">Free Trial</button>
             </ul>
-           </div>
+        </div>
         </div>
     </nav>
     <header>
-        
+
         <div class="row">
-            
-             <div class="col-lg-6 col-md-6 content">
+
+            <div class="col-lg-6 col-md-6 content">
                 <h1 class="font-weight-bold mt-5 py-3">One-stop customer service</h1>
-                <h5>An all-in-one customer service platform that helps you balance everything your customers need to be happy.</h5>
-              <input type="text" placeholder="work email*" ><button class=" btn" >Free 15 days trial</button>
-             <p class="pt-3"><b>10+ users?</b>
-                <a href="" class="pl-2">Get a demo</a>
-            </p>
+                <h5>An all-in-one customer service platform that helps you balance everything your customers need to be
+                    happy.</h5>
+                <input type="text" placeholder="work email*"><button class=" btn">Free 15 days trial</button>
+                <p class="pt-3"><b>10+ users?</b>
+                    <a href="" class="pl-2">Get a demo</a>
+                </p>
             </div>
-             <div class="col-lg-6  col-md-6 video ">
-                
-            <video autoplay="" height="auto" loop muted playsinline
-                poster="/static/HomeHero--poster-fc9d54f1085693cd49b6264c02afcf6b.png" preload="auto" width="100%">
-                <source src="assets/vedio/HomeHero--video-f7174826a124e57fce535c7cec781df6.webm" type="video/webm">
-            </video>
+            <div class="col-lg-6  col-md-6 video ">
+
+                <video autoplay="" height="auto" loop muted playsinline
+                    poster="/static/HomeHero--poster-fc9d54f1085693cd49b6264c02afcf6b.png" preload="auto" width="100%">
+                    <source src="assets/vedio/HomeHero--video-f7174826a124e57fce535c7cec781df6.webm" type="video/webm">
+                </video>
+            </div>
+        </div>
+
+    </header>
+    <section class="client text-center">
+        <div class="container">
+            <h4>Trusted by more than 11,000 businesses in 140 countries.</h4>
+            <div class="row mb-5">
+                <div class="col-lg-2 col-md-4 col-sm-6"><img src="assets/images/AngelList.webp" alt="" srcset=""></div>
+                <div class="col-lg-2 col-md-4 col-sm-6"><img src="assets/images/Mixmax.webp" alt="" srcset=""></div>
+                <div class="col-lg-2 col-md-4 col-sm-6"><img src="assets/images/Litmus.webp" alt="" srcset=""></div>
+                <div class="col-lg-2 col-md-4 col-sm-6"><img src="assets/images/Pocket.webp" alt="" srcset=""></div>
+                <div class="col-lg-2 col-md-4 col-sm-6"><img src="assets/images/Basecamp.webp" alt="" srcset=""></div>
+                <div class="col-lg-2 col-md-4 col-sm-6"><img src="assets/images/Tuft & Needle.webp" alt="" srcset="">
                 </div>
-         </div>
-        
-     </header>
-     <section class="client text-center">
-         <div class="container">
-        <h4>Trusted by more than 11,000 businesses in 140 countries.</h4>
-        <div class="row mb-5">
-            <div class="col-lg-2 col-md-4 col-sm-6"><img src="assets/images/AngelList.webp" alt="" srcset=""></div>
-            <div class="col-lg-2 col-md-4 col-sm-6"><img src="assets/images/Mixmax.webp" alt="" srcset=""></div>
-            <div class="col-lg-2 col-md-4 col-sm-6"><img src="assets/images/Litmus.webp" alt="" srcset=""></div>
-            <div class="col-lg-2 col-md-4 col-sm-6"><img src="assets/images/Pocket.webp" alt="" srcset=""></div>
-            <div class="col-lg-2 col-md-4 col-sm-6"><img src="assets/images/Basecamp.webp" alt="" srcset=""></div>
-            <div class="col-lg-2 col-md-4 col-sm-6"><img src="assets/images/Tuft & Needle.webp" alt="" srcset=""></div>
-            <div class="col-lg-2"></div>
-            <div class="col-lg-8 gif-text">
-                <h2><b>What you can do with Help Scout</b></h2>
+                <div class="col-lg-2"></div>
+                <div class="col-lg-8 gif-text">
+                    <h2><b>What you can do with Help Scout</b></h2>
+                </div>
+                <div class="col-lg-2"></div>
             </div>
-            <div class="col-lg-2"></div>
         </div>
-        </div>
-     </section>
-     
-     <section  class="email">
-         <div class="container">
+    </section>
+
+    <section class="email">
+        <div class="container">
             <div class="row">
                 <div class="col-lg-4 email-content">
                     <h3>Email</h3>
                     <h2>Share team inboxes</h2>
-                    <p>Whether you have a team of 2 or 200, Mailboxes keep everyone on the same page. Leverage automation to move
+                    <p>Whether you have a team of 2 or 200, Mailboxes keep everyone on the same page. Leverage
+                        automation to move
                         fast, while
                         always giving customers a human, helpful experience.</p>
                     <a href="">More about Shared Inboxes</a>
                 </div>
                 <div class="col-lg-8">
                     <div class="bg-color">
-                        
+
                         <img src="assets/images/MailboxFeature--avatar.webp" class="top-img">
                         <img src="assets/images/MailboxFeature--screenshot.webp" class="btm-img">
                     </div>
                 </div>
             </div>
 
-         </div>
-     </section>
-     <section class="Knowledge ">
-         <div class="container">
-        <div class="row">
-        
-            <div class="col-lg-6 bg-kgn text-center">
-                <video autoplay="" height="auto" loop muted playsinline
-                    poster="/static/HomeHero--poster-fc9d54f1085693cd49b6264c02afcf6b.png" preload="auto" width="80%">
-                    <source src="assets/vedio/KnowledgeBaseFeature--demo-930fb9455a49d4853c0692d0062f20ec.webm"
-                        type="video/webm">
-                </video>
-        
-            </div>
-            <div class="col-lg-2"></div>
-            <div class="col-lg-4 Knowledge-content">
-                <h3>Knowledge base</h3>
-                <h2>Deliver instant answers</h2>
-                <p>Keep your customers in the flow by embedding help articles right on your website. With Beacon, they never
-                    have to leave
-                    the page to find an answer.</p>
-                <a href="">More about the Knowledge Base</a>
-                <img src="assets/images/KnowledgeBaseFeature--illustration.webp" alt="">
+        </div>
+    </section>
+    <section class="Knowledge ">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-6 bg-kgn text-center">
+                    <video autoplay="" height="auto" loop muted playsinline
+                        poster="/static/HomeHero--poster-fc9d54f1085693cd49b6264c02afcf6b.png" preload="auto"
+                        width="80%">
+                        <source src="assets/vedio/KnowledgeBaseFeature--demo-930fb9455a49d4853c0692d0062f20ec.webm"
+                            type="video/webm">
+                    </video>
+
+                </div>
+                <div class="col-lg-2"></div>
+                <div class="col-lg-4 Knowledge-content">
+                    <h3>Knowledge base</h3>
+                    <h2>Deliver instant answers</h2>
+                    <p>Keep your customers in the flow by embedding help articles right on your website. With Beacon,
+                        they never
+                        have to leave
+                        the page to find an answer.</p>
+                    <a href="">More about the Knowledge Base</a>
+                    <img src="assets/images/KnowledgeBaseFeature--illustration.webp" alt="">
+                </div>
             </div>
         </div>
-        </div>
-     </section>
-     <section class="live">
-         <div class="container">
-        <div class="row">
-            <div class="col-lg-4 live-content">
-                <h3>Live chat</h3>
-                <h2>Connect with customers</h2>
-                <p>Solve a problem or close a sale in real-time with chat. If no one is available, customers are seamlessly
-                    routed to email
-                    without confusion.</p>
-                <a href="">More about Live Chat</a>
-        
-            </div>
-        
-            <div class="col-lg-2"></div>
-            <div class="col-lg-6 bg-kgn text-center">
-                <video autoplay="" height="auto" loop muted playsinline preload="auto" width="80%">
-                    <source src="assets/vedio/LiveChatFeature--demo-2a28e7bbc39e0753685294cb935d7713.webm" type="video/webm">
-                </video>
-        
-            </div>
-        </div>
-        </div>
-     </section>
-     <section class="report mt-5">
-         <div class="container">
-        <div class="row ">
-            <div class="col-lg-8 ">
-                <img src="assets/images/ReportsFeature--screenshot.webp" alt="" width="85%" height="auto">
-        
-            </div>
-            <div class="col-lg-4 report-content">
-                <h3>Live chat</h3>
-                <h2>Connect with customers</h2>
-                <p>Solve a problem or close a sale in real-time with chat. If no one is available, customers are seamlessly
-                    routed to email
-                    without confusion.</p>
-                <a href="">More about Live Chat</a>
-        
+    </section>
+    <section class="live">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 live-content">
+                    <h3>Live chat</h3>
+                    <h2>Connect with customers</h2>
+                    <p>Solve a problem or close a sale in real-time with chat. If no one is available, customers are
+                        seamlessly
+                        routed to email
+                        without confusion.</p>
+                    <a href="">More about Live Chat</a>
+
+                </div>
+
+                <div class="col-lg-2"></div>
+                <div class="col-lg-6 bg-kgn text-center">
+                    <video autoplay="" height="auto" loop muted playsinline preload="auto" width="80%">
+                        <source src="assets/vedio/LiveChatFeature--demo-2a28e7bbc39e0753685294cb935d7713.webm"
+                            type="video/webm">
+                    </video>
+
+                </div>
             </div>
         </div>
-         </div>
-     </section>
-     <section class="Integrations">
-         <div class="container">
+    </section>
+    <section class="report mt-5">
+        <div class="container">
+            <div class="row ">
+                <div class="col-lg-8 ">
+                    <img src="assets/images/ReportsFeature--screenshot.webp" alt="" width="85%" height="auto">
+
+                </div>
+                <div class="col-lg-4 report-content">
+                    <h3>Live chat</h3>
+                    <h2>Connect with customers</h2>
+                    <p>Solve a problem or close a sale in real-time with chat. If no one is available, customers are
+                        seamlessly
+                        routed to email
+                        without confusion.</p>
+                    <a href="">More about Live Chat</a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="Integrations">
+        <div class="container">
             <div class="row Integrations">
-            
+
                 <div class="col-lg-5 report-content">
                     <h3>Integrations</h3>
                     <h2>Connect the tools you already use</h2>
-                    <p>Explore 50+ integrations that make your day-to-day workflow more efficient and familiar. Our extensive
+                    <p>Explore 50+ integrations that make your day-to-day workflow more efficient and familiar. Our
+                        extensive
                         developer tools
                         might also strike your fancy.</p>
                     <a href="">More about Live Chat</a>
-             </div>
+                </div>
                 <div class="col-lg-7 int-bg">
                     <img src="assets/images/IntegrationsFeature--screenshot.webp" alt="" width="100%" height="auto">
-             </div>
-             </div>
-         </div>
-     </section>
-   
+                </div>
+            </div>
+        </div>
+    </section>
+
     <footer>
         <div class="container">
             <div class="row">
@@ -223,8 +374,9 @@
                     <h4>Tools for the world's most customer-centric businesses</h4>
                 </div>
                 <div class="col-lg-2 mt-5">
-                    <h5 >Platform</h5>
-                    <ul><li>Knowledge Base</li>
+                    <h5>Platform</h5>
+                    <ul>
+                        <li>Knowledge Base</li>
                         <li>Shared inbox</li>
                         <li>Live Chat</li>
                         <li>Customer Management</li>
@@ -245,10 +397,10 @@
                         <li>Guide to Working Remotely</li>
                         <li>Top Customer Service Skills</li>
                         <li>Support Metrics and Reports</li>
-                       
-                    
+
+
                     </ul>
-                   
+
                 </div>
                 <div class="col-lg-2 mt-5">
                     <h5>Company</h5>
@@ -262,9 +414,9 @@
                         <li>Against the Grain</li>
                         <li>Terms & Privacy</li>
                         <li>Accessibility Statement</li>
-                    
+
                     </ul>
-                  
+
                 </div>
                 <div class="col-lg-2 mt-5">
                     <h5>Get Help</h5>
@@ -274,10 +426,10 @@
                         <li>Free Training</li>
                         <li>Contact Sales</li>
                         <li>Status <span id="span">▲ 99.99%</span></li>
-                    
-                    
+
+
                     </ul>
-                   
+
                 </div>
                 <div class="col-lg-12">
                     <i class="fas fa-bold fa-3x"></i>
@@ -287,17 +439,18 @@
                     <i class="fas fa-bold fa-2x"></i>
                     <i class="fas fa-facebook"></i>
                     <i class="fas fa-twitter"></i>
-                    
+
                 </div>
-    
+
             </div>
-            
+
         </div>
-        
+
     </footer>
-    
+
     <script src="js/jQuery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/index.js"></script>
 </body>
+
 </html>
