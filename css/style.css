@@ -331,6 +331,16 @@ nav ul .button:hover {
     margin-bottom: 100px;
   }
 }
+@media (max-width: 1092px) {
+  .Knowledge-content img {
+    display: none;
+  }
+}
+@media (min-width: 1092px) {
+  .Knowledge-content img {
+    overflow: hidden;
+  }
+}
 
 .bg-kgn::before {
   content: "";
@@ -602,5 +612,4 @@ footer .footer:hover {
 }
 footer .copyright {
   float: right;
-  padding-bottom: 100px;
 }
