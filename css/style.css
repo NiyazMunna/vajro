@@ -22,10 +22,18 @@ nav {
   padding-top: 20px !important;
   padding-bottom: 20px !important;
 }
-.nav-item {
+.navbar-light .navbar-nav .nav-link {
   font-weight: 400;
-  font-size: 17px;
-  color: rgb(85, 101, 117);
+  font-size: 15px;
+  font-size: normal;
+  color: rgb(114, 120, 126) !important;
+  cursor: pointer;
+}
+.dropdown {
+  font-weight: 400;
+  font-size: 15px;
+  font-size: normal;
+  color: rgb(114, 120, 126) !important;
   cursor: pointer;
 }
 nav ul .button:hover {
@@ -50,13 +58,13 @@ nav ul .button:hover {
   z-index: 10;
 }
 /* .client {
-  padding: 120px;
+  padding: 130px !important;
 } */
 
 @media (min-width: 1200px) {
   .content h1 {
-    font-size: 48px;
-    font-weight: bold;
+    font-size: 46px;
+    font-weight: 600;
   }
 }
 
@@ -145,25 +153,30 @@ nav ul .button:hover {
   position: relative;
 
   width: 50%;
-  height: 60px;
+  height: 50px;
   border-radius: 4px 0 0 4px;
-  border: 1px solid rgb(110, 109, 109);
+  border: 0.2px solid rgb(96, 97, 99);
 }
 .content button {
   position: absolute;
   border-radius: 0 4px 4px 0;
-  height: 60px;
+  height: 50px;
   font-weight: bold;
   font-size: large;
 }
 .content button:hover {
   background-color: rgb(0, 92, 164);
 }
+.video {
+  overflow: hidden;
+}
 .content a {
   text-decoration: none;
 }
 .content p {
-  font-size: 20px;
+  font-size: 18px;
+  font-weight: normal;
+  color: rgb(72, 73, 75);
 }
 .content p:hover i {
   margin-left: 10px;
@@ -171,7 +184,8 @@ nav ul .button:hover {
 
 .content h5 {
   line-height: 40px;
-  font-size: 22px;
+  font-weight: 21px;
+  color: rgb(49, 67, 81);
   max-width: 650px;
 }
 .client {
@@ -223,8 +237,17 @@ nav ul .button:hover {
   margin-top: 160px;
 }
 .email-content p {
-  font-size: 20px;
+  font-size: 17px;
   line-height: 40px;
+  color: rgb(94, 95, 97);
+}
+.email-content h3 {
+  font-size: 28px;
+  line-height: 40px;
+  font-weight: 530;
+}
+.email-content h5 {
+  color: rgb(94, 95, 97);
 }
 .email-content a {
   text-decoration: none;
@@ -272,11 +295,20 @@ nav ul .button:hover {
 }
 .Knowledge-content img {
   margin-top: 200px;
-  margin-left: 200px;
+  margin-left: 100px;
 }
 .Knowledge-content p {
-  font-size: 20px;
+  font-size: 17px;
   line-height: 40px;
+  color: rgb(94, 95, 97);
+}
+.Knowledge-content h3 {
+  font-size: 28px;
+  line-height: 40px;
+  font-weight: 530;
+}
+.Knowledge-content h5 {
+  color: rgb(94, 95, 97);
 }
 .Knowledge-content a {
   text-decoration: none;
@@ -299,21 +331,7 @@ nav ul .button:hover {
     margin-bottom: 100px;
   }
 }
-/* @media (min-width: 1200px) {
-  .video {
-    overflow: hidden;
-    top: 30%;
-  }
-} */
-/* @media (min-width: 1200px) {
-  .video {
-    overflow: hidden;
-    top: 350px;
-  }
-  .Knowledge-content img {
-    padding-right: 200px;
-  }
-} */
+
 .bg-kgn::before {
   content: "";
   display: block;
@@ -331,8 +349,17 @@ nav ul .button:hover {
   margin-top: 250px;
 }
 .live-content p {
-  font-size: 20px;
+  font-size: 17px;
   line-height: 40px;
+  color: rgb(94, 95, 97);
+}
+.live-content h3 {
+  font-size: 28px;
+  line-height: 40px;
+  font-weight: 530;
+}
+.live-content h5 {
+  color: rgb(94, 95, 97);
 }
 .live-content a {
   text-decoration: none;
@@ -364,8 +391,20 @@ nav ul .button:hover {
   margin-top: 100px;
 }
 .report-content p {
-  font-size: 20px;
+  font-size: 17px;
   line-height: 40px;
+  color: rgb(94, 95, 97);
+}
+.report-contenth3 {
+  font-size: 28px;
+  line-height: 40px;
+  font-weight: 530;
+}
+.report-content h5 {
+  color: rgb(94, 95, 97);
+}
+.live-content a {
+  text-decoration: none;
 }
 .report-content a {
   text-decoration: none;
@@ -443,12 +482,10 @@ footer hr {
   position: relative;
   display: inline-block;
 }
-.dropdown button img {
-  color: rgb(85, 101, 117) !important;
-}
 /* .dropdown button img {
-  opacity: 0.4;
+  color: rgb(85, 101, 117) !important;
 } */
+
 .dropdown button::after {
   border-top-width: 2px;
   border-top-style: solid;
@@ -478,7 +515,7 @@ footer hr {
   border: 1px solid rgb(158, 151, 151);
   z-index: 1;
   border-radius: 4px;
-  padding: 25px;
+  padding: 12px;
   top: 40px !important;
   left: -15px !important;
 }
@@ -492,7 +529,7 @@ footer hr {
   border: 1px solid rgb(158, 151, 151);
   z-index: 1;
   border-radius: 4px;
-  padding: 15px;
+  padding: 8px;
   top: 40px !important;
   left: -15px !important;
 }
@@ -511,8 +548,7 @@ footer hr {
 }
 .dropdown-content span strong {
   color: rgb(64, 82, 97);
-
-  font-size: 16px;
+  font-size: 15px;
   font-weight: bold;
 }
 .dropdown-content-2 span strong {
@@ -522,7 +558,7 @@ footer hr {
   font-weight: bold;
 }
 .dropdown-content span p {
-  font-size: 14px;
+  font-size: 13px;
   margin: 0px;
   line-height: 1.5;
 }
@@ -552,4 +588,23 @@ footer hr {
 }
 .opacity-none-1:hover {
   opacity: 1 !important;
+}
+.border {
+  border-radius: 4px;
+  padding: 20px;
+}
+.border:hover {
+  background: rgb(242 246 255);
+}
+.border:hover i {
+  margin-left: 10px;
+}
+.border i {
+  margin-right: 20px;
+}
+.border span strong {
+  font-size: 12px;
+}
+.border span p {
+  font-size: 11px;
 }
