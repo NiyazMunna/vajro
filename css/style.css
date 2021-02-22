@@ -10,13 +10,17 @@ body {
     linear-gradient(90deg, rgb(242, 246, 255) 0%, rgba(242, 246, 255, 0) 50%);
 }
 header {
-  padding-top: 170px;
+  padding-top: 150px;
 }
 .container-fluid {
-  padding: 0px 135px;
+  padding: 0px 120px;
 }
 .nav-link {
   margin: 0 12px;
+}
+nav {
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
 }
 .nav-item {
   font-weight: 400;
@@ -41,7 +45,7 @@ nav ul .button:hover {
   background: url(../assets/images/logo.svg) 0px 5px / 100% no-repeat;
 }
 .content {
-  padding-left: 170px;
+  padding-left: 150px;
   position: relative;
   z-index: 10;
 }
@@ -51,7 +55,7 @@ nav ul .button:hover {
 
 @media (min-width: 1200px) {
   .content h1 {
-    font-size: 55px;
+    font-size: 48px;
     font-weight: bold;
   }
 }
@@ -69,10 +73,15 @@ nav ul .button:hover {
 }
 @media (max-width: 992px) {
   .content {
-    padding: 30px;
+    padding-left: 30px;
+    padding-top: 80px;
   }
   .content h1 {
     padding-top: 0px;
+    font-weight: bold;
+  }
+  .content {
+    letter-spacing: initial;
   }
   .video {
     position: initial;
@@ -82,11 +91,12 @@ nav ul .button:hover {
   }
   header {
     width: 95%;
+    padding-top: 0px;
   }
-  /* .client {
+  .client {
     padding-top: 0px !important;
     padding: 0px;
-  } */
+  }
 }
 @media (max-width: 992px) {
   .email-content {
@@ -102,7 +112,15 @@ nav ul .button:hover {
   footer .mt-5 {
     margin-right: 30px !important;
   }
+  .Knowledge .row {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .Knowledge-content {
+    margin-bottom: 100px;
+  }
 }
+
 @media (max-width: 992px) {
   .btm-img {
     margin-left: 0px;
@@ -151,9 +169,10 @@ nav ul .button:hover {
   margin-left: 10px;
 }
 
-.content h4 {
+.content h5 {
   line-height: 40px;
-  word-spacing: 8px;
+  font-size: 22px;
+  max-width: 650px;
 }
 .client {
   padding-top: 150px;
@@ -269,7 +288,32 @@ nav ul .button:hover {
   .Knowledge-content img {
     display: none;
   }
+  .live-content {
+    margin-bottom: 100px;
+  }
+  .report .row {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .report-content {
+    margin-bottom: 100px;
+  }
 }
+/* @media (min-width: 1200px) {
+  .video {
+    overflow: hidden;
+    top: 30%;
+  }
+} */
+/* @media (min-width: 1200px) {
+  .video {
+    overflow: hidden;
+    top: 350px;
+  }
+  .Knowledge-content img {
+    padding-right: 200px;
+  }
+} */
 .bg-kgn::before {
   content: "";
   display: block;
