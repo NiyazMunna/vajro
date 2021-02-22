@@ -404,7 +404,9 @@ footer {
   width: 25px;
   height: auto;
 }
-
+.footer-icon-2 ul li {
+  display: inline;
+}
 footer ul li {
   list-style: none;
   color: rgb(155, 148, 148);
