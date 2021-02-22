@@ -590,3 +590,17 @@ footer hr {
 .border span p {
   font-size: 11px;
 }
+footer hr {
+  border-bottom: 0.1px solid rgb(167, 164, 164);
+}
+footer .footer {
+  padding-top: 120px;
+  opacity: 0.4;
+}
+footer .footer:hover {
+  opacity: 1;
+}
+footer .copyright {
+  float: right;
+  padding-bottom: 100px;
+}
