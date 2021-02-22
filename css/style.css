@@ -237,16 +237,16 @@ nav ul .button:hover {
   margin-top: 160px;
 }
 .email-content p {
-  font-size: 17px;
+  font-size: 18px;
   line-height: 40px;
   color: rgb(94, 95, 97);
 }
 .email-content h3 {
   font-size: 28px;
-  line-height: 40px;
-  font-weight: 530;
+  padding: 20px 0;
+  font-weight: 560;
 }
-.email-content h5 {
+.email-content h4 {
   color: rgb(94, 95, 97);
 }
 .email-content a {
@@ -298,16 +298,16 @@ nav ul .button:hover {
   margin-left: 100px;
 }
 .Knowledge-content p {
-  font-size: 17px;
+  font-size: 18px;
   line-height: 40px;
   color: rgb(94, 95, 97);
 }
 .Knowledge-content h3 {
   font-size: 28px;
-  line-height: 40px;
-  font-weight: 530;
+  padding: 20px 0;
+  font-weight: 560;
 }
-.Knowledge-content h5 {
+.Knowledge-content h4 {
   color: rgb(94, 95, 97);
 }
 .Knowledge-content a {
@@ -349,16 +349,16 @@ nav ul .button:hover {
   margin-top: 250px;
 }
 .live-content p {
-  font-size: 17px;
+  font-size: 18px;
   line-height: 40px;
   color: rgb(94, 95, 97);
 }
 .live-content h3 {
   font-size: 28px;
-  line-height: 40px;
-  font-weight: 530;
+  padding: 20px 0;
+  font-weight: 560;
 }
-.live-content h5 {
+.live-content h4 {
   color: rgb(94, 95, 97);
 }
 .live-content a {
@@ -391,16 +391,16 @@ nav ul .button:hover {
   margin-top: 100px;
 }
 .report-content p {
-  font-size: 17px;
+  font-size: 18px;
   line-height: 40px;
   color: rgb(94, 95, 97);
 }
-.report-contenth3 {
+.report-content h3 {
   font-size: 28px;
-  line-height: 40px;
-  font-weight: 530;
+  padding: 20px 0;
+  font-weight: 560;
 }
-.report-content h5 {
+.report-content h4 {
   color: rgb(94, 95, 97);
 }
 .live-content a {
@@ -485,25 +485,6 @@ footer hr {
 /* .dropdown button img {
   color: rgb(85, 101, 117) !important;
 } */
-
-.dropdown button::after {
-  border-top-width: 2px;
-  border-top-style: solid;
-  border-right-width: 2px;
-  border-right-style: solid;
-  content: "";
-  display: inline-block;
-  margin-left: 0.3em;
-  position: relative;
-  pointer-events: none;
-  width: 6px;
-  height: 6px;
-  transition: all 0.15s ease 0s;
-  vertical-align: middle;
-  transform: rotate(135deg);
-  top: -2px;
-  left: 2px;
-}
 
 .dropdown-content {
   display: none;
