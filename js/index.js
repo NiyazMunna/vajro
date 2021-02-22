@@ -24,7 +24,7 @@ for (var i = 1; i <= 8; i++) {
 const hoverAnimation = (element) => {
     opacity.map((a) => {
         if (a.id != element.id) {
-            a.style.opacity = 0.7
+            a.style.opacity = 0.5
         }
         else a.style.opacity = 1
     });
