@@ -577,11 +577,12 @@ footer hr {
 .border:hover {
   background: rgb(242 246 255);
 }
-.border:hover i {
+.border:hover svg {
   margin-left: 10px;
 }
-.border i {
+.border svg {
   margin-right: 20px;
+  opacity: 0.3;
 }
 .border span strong {
   font-size: 12px;
